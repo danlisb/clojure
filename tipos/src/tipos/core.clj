@@ -1,0 +1,13 @@
+(ns tipos.core)
+
+(type 10)
+(type 10.0)
+(type (/ 10 3))
+(type (* 3(/ 10 3)))
+(type 10N)
+(type 10M)
+(type "Daniel")
+(type nil)
+(type [])
+(type [1 2 3])
+(type println)
