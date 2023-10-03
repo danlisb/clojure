@@ -1,12 +1,12 @@
-(ns hello-world.core)
+(ns mapa.core)
 
-{}                                                          ; mapa vazio
+{} ; mapa vazio
 
 ; : indica keyword (utilizar sempre um por padrão e o mapa precisa ter um par de valores)
 
 {:nome "Daniel"
  :sobrenome "Lisboa"
- :idade 12}
+ :idade 21}
 
 ; carrinho de compras
 (defn compras
