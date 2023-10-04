@@ -16,3 +16,7 @@
       (if (< resultado-calculo-imc 24.9)
         :peso-ideal
         :peso-acima))))
+
+(indicador-imc 10 1.20) ; peso-baixo
+(indicador-imc 70 1.70) ; peso-ideal
+(indicador-imc 100 1.50) ; peso-acima
