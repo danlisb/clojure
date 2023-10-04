@@ -30,9 +30,10 @@
 (:nome {:nome "Estrutura de Dados", :semestre 2})
 
 (map :nome [{:nome "Estrutura de Dados" :semestre 2} {:nome "Inteligência Artificial" :semestre 3}])
+
 ; "Estrutura de Dados" -> "ESTRUTURA DE DADOS"
 (clojure.string/upper-case "Estrutura de Dados")
-
 (map clojure.string/upper-case ["Estrutura de Dados", "Inteligência Artificial"])
 
+; Separa os elementos com vírgula e espaço
 (clojure.string/join ", " ["ESTRUTURA DE DADOS" "INTELIGÊNCIA ARTIFICIAL"])
